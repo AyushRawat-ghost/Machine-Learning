@@ -1,0 +1,11 @@
+library(caret)
+library(e1071)
+data(iris)
+index=sample(nrow(iris),nrow(iris)*0.8)
+train=iris[index,]
+test=iris[-index,]
+model=svm(Species~.,train)
+prediction=predict(model,test)
+plot(model,train,Sepal.Length~Sepal.Width)
+cm=table(prediction,test$Species)
+print(cm)
