@@ -1,0 +1,383 @@
+Source,Target,Weight
+CSMT,Masjid,2
+Masjid,Sandhurst Road,2
+Sandhurst Road,Byculla,3
+Byculla,Chinchpokli,2
+Chinchpokli,Currey Road,1
+Currey Road,Parel,1
+Parel,Dadar (CR),2
+Dadar (CR),Matunga (CR),2
+Matunga (CR),Sion,2
+Sion,Kurla (CR),3
+Kurla (CR),Vidyavihar,2
+Vidyavihar,Ghatkopar (CR),2
+Ghatkopar (CR),Vikroli,3
+Vikroli,Kanjurmarg,2
+Kanjurmarg,Bhandup,2
+Bhandup,Nahur,1
+Nahur,Mulund,2
+Mulund,Thane (CR),3
+Thane (CR),Kalwa,2
+Kalwa,Mumbra,3
+Mumbra,Diva,2
+Diva,Kopar,2
+Kopar,Dombivli,2
+Dombivli,Thakurli,1
+Thakurli,Kalyan Jn,2
+Kalyan Jn,Vitthalwadi,2
+Vitthalwadi,Ulhasnagar,2
+Ulhasnagar,Ambernath,3
+Ambernath,Badlapur,4
+Badlapur,Vangani,3
+Vangani,Karjat,5
+Karjat,Bhivpuri Road,4
+Bhivpuri Road,Neral,3
+Neral,Shelu,2
+Shelu,Kasara,15 # Longer stretch
+Kalyan Jn,Titwala,5
+Titwala,Ambivli,3
+Ambivli,Shahad,2
+Shahad,Kalyan Jn,2
+
+Churchgate,Marine Lines,2
+Marine Lines,Charni Road,2
+Charni Road,Grant Road,3
+Grant Road,Mumbai Central (WR),2
+Mumbai Central (WR),Mahalaxmi,3
+Mahalaxmi,Lower Parel,2
+Lower Parel,Elphinstone Road (WR),1
+Elphinstone Road (WR),Dadar (WR),2
+Dadar (WR),Matunga Road (WR),2
+Matunga Road (WR),Mahim Jn,1
+Mahim Jn,Bandra (WR),2
+Bandra (WR),Khar Road,1
+Khar Road,Santacruz (WR),2
+Santacruz (WR),Vile Parle,2
+Vile Parle,Andheri (WR),2
+Andheri (WR),Jogeshwari,2
+Jogeshwari,Goregaon (WR),2
+Goregaon (WR),Malad,3
+Malad,Kandivali,2
+Kandivali,Borivali,3
+Borivali,Dahisar (WR),2
+Dahisar (WR),Mira Road,4
+Mira Road,Bhayandar,3
+Bhayandar,Vasai Road,7
+Vasai Road,Nalasopara,2
+Nalasopara,Virar,3
+Virar,Boisar,10
+Boisar,Palghar,8
+Palghar,Dahanu Road,15
+
+Wadala Road,Cotton Green,1
+Cotton Green,Sewri,1
+Sewri,Reay Road,2
+Reay Road,Dockyard Road,1
+Dockyard Road,Sandhurst Road,2
+Sandhurst Road,Masjid,2 # Connects Harbour with Central
+CSMT,Wadala Road,8
+Wadala Road,Chembur (HBL),7
+Chembur (HBL),Govandi,2
+Govandi,Mankhurd,2
+Mankhurd,Turbhe,5
+Turbhe,Sanpada,1
+Sanpada,Vashi,2
+Vashi,Nerul,3
+Nerul,Seawoods - Darave,2
+Seawoods - Darave,CBD Belapur,1
+CBD Belapur,Kharghar,3
+Kharghar,Mansarovar,2
+Mansarovar,Khandeshwar,1
+Khandeshwar,Panvel,2
+
+# Metro Line 1: Versova - Ghatkopar
+Versova (Metro),DN Nagar (Metro),2
+DN Nagar (Metro),Azad Nagar (Metro),1
+Azad Nagar (Metro),Andheri (Metro),2
+Andheri (Metro),Chakala (Metro),2
+Chakala (Metro),JB Nagar,1
+JB Nagar,Airport Road,1
+Airport Road,Marol Naka,1
+Marol Naka,Saki Naka,1
+Saki Naka,Asalpha,1
+Asalpha,Jagruti Nagar,1
+Jagruti Nagar,Ghatkopar (Metro),1
+
+# Metro Line 2A: Dahisar East - DN Nagar
+Dahisar East (Metro),Anand Nagar (Metro),2
+Anand Nagar (Metro),Rushi Sankul,1
+Rushi Sankul,Poisar,2
+Poisar,Shree Krishna Nagar,1
+Shree Krishna Nagar,Valnai,2
+Valnai,Kandivali West,1
+Kandivali West,Dahisar West,1 # Hypothetical segment for connecting
+Dahisar West,Borivali West,2
+Borivali West,IC Colony,2
+IC Colony,Exhibition Centre,3
+Exhibition Centre,Charkop,2
+Charkop,Malad West,1
+Malad West,Kandivali West,2 # Cycle back
+Kandivali West,D.N. Nagar (Metro),5 # Connects to Line 1
+
+# Metro Line 7: Dahisar East - Gundavali
+Dahisar East (Metro),Magathane,2
+Magathane,Devi Pada,1
+Devi Pada,National Park,2
+National Park,Ovaripada,1
+Ovaripada,Dahisar East,1 # Hypothetical small loop/branch
+Dahisar East (Metro),Kandivali East,3
+Kandivali East,Mahindra & Mahindra,2
+Mahindra & Mahindra,Aarey Colony,4
+Aarey Colony,Gundavali,3
+Gundavali,JB Nagar,2 # Connects to Line 1
+Gundavali,Andheri (Metro),1
+
+# Major Interchanges
+Dadar (CR),Dadar (WR),4 # Central to Western Line Transfer
+Kurla (CR),Kurla (Metro),3 # Central to Metro Line 1 Transfer (Simulated)
+Ghatkopar (CR),Ghatkopar (Metro),2 # Central to Metro Line 1 Transfer
+Andheri (WR),Andheri (Metro),3 # Western to Metro Line 1 Transfer
+Bandra (WR),BKC,5 # Western to BKC (business hub)
+Mumbai Central (WR),Mumbai Central (Metro),4 # Hypothetical Metro Link
+CSMT,Chhatrapati Shivaji Maharaj Terminus (Metro),3 # Hypothetical Metro Link
+
+# Other plausible connections / Metro Line segments (simulated)
+Worli (Metro),Lower Parel (Metro),3
+Lower Parel (Metro),Dadar (Metro),4
+Dadar (Metro),Bandra Kurla Complex (Metro),5
+Bandra Kurla Complex (Metro),Santacruz Airport,3
+Santacruz Airport,Sahar Airport (Metro),2
+Sahar Airport (Metro),IGI Airport,5 # Connect to existing Delhi IGI if needed for scale
+CSMT (Metro),Churchgate (Metro),2
+Churchgate (Metro),Nariman Point (Metro),1
+Nariman Point (Metro),Colaba (Metro),2
+Colaba (Metro),Cuffe Parade (Metro),1
+CSMT (Metro),Marine Lines (Metro),3
+Marine Lines (Metro),Mumbai Central (Metro),5
+Mumbai Central (Metro),Worli (Metro),4
+Juhu,Khar Danda,1
+Khar Danda,Lokhandwala,2
+Lokhandwala,Versova (Metro),3
+Airport Colony,Domestic Airport (Metro),1
+Domestic Airport (Metro),Vile Parle,2
+Vile Parle,Santacruz (Metro),1 # Metro-Local Interchange
+Santacruz (Metro),Santacruz (WR),1
+Kalyan Jn,Kalyan Naka,2
+Kalyan Naka,Kalyan West,1
+Kalyan West,Kalyan Jn,2
+Dombivli,Dombivli East,1
+Dombivli East,Dombivli,1
+
+CSMT,Churchgate,5
+CSMT,Masjid,2
+Churchgate,Marine Lines,2
+Marine Lines,Charni Road,2
+Charni Road,Grant Road,3
+Grant Road,Mumbai Central,2
+Mumbai Central,Mahalaxmi,3
+Mahalaxmi,Lower Parel,2
+Lower Parel,Elphinstone Road,1
+Elphinstone Road,Dadar,2
+Dadar,Matunga,2
+Matunga,Sion,2
+Sion,Kurla,3
+Kurla,Ghatkopar,4
+Ghatkopar,Vikhroli,3
+Vikhroli,Kanjurmarg,2
+Kanjurmarg,Bhandup,2
+Bhandup,Mulund,3
+Mulund,Thane,4
+Thane,Dombivli,8
+Dombivli,Kalyan,5
+Kalyan,Thane,5
+Dadar,Prabhadevi,1
+Prabhadevi,Parel,1
+Parel,Byculla,3
+Byculla,Masjid,2
+Masjid,CSMT,2
+Dadar,Bandra,4
+Bandra,Mahim,2
+Mahim,Matunga,1
+Borivali,Kandivali,3
+Kandivali,Malad,2
+Malad,Goregaon,2
+Goregaon,Andheri,3
+Andheri,Vile Parle,2
+Vile Parle,Santacruz,2
+Santacruz,Bandra,3
+Andheri,Sahar Airport,5
+Sahar Airport,Domestic Airport,3
+Andheri,Versova,4
+Versova,DN Nagar,2
+DN Nagar,Azad Nagar,1
+Azad Nagar,Andheri,3
+BKC,Bandra,3
+BKC,Kurla,6
+Powai,IIT Bombay,2
+IIT Bombay,Hiranandani Gardens,1
+Hiranandani Gardens,JVLR,3
+JVLR,Kanjurmarg,4
+Dockyard Road,Reay Road,1
+Reay Road,Cotton Green,2
+Cotton Green,Sewri,1
+Sewri,Vadala Road,2
+Vadala Road,King's Circle,3
+King's Circle,Mahim Jn,2
+Mahim Jn,Dadar,3
+Mulund,Thane,4
+Thane,Kurla,10
+Kurla,Dadar,5
+CSMT,Byculla,3
+Byculla,Parel,4
+Parel,Lower Parel,2
+Lower Parel,Mahalaxmi,3
+Mahalaxmi,Mumbai Central,2
+Mumbai Central,Grant Road,2
+Grant Road,Charni Road,3
+Charni Road,Marine Lines,2
+Marine Lines,Churchgate,2
+Churchgate,CSMT,5
+Ghatkopar,Kurla,4
+Kurla,Sion,3
+Sion,Matunga,2
+Matunga,Dadar,2
+Dadar,Elphinstone Road,1
+Elphinstone Road,Lower Parel,2
+Lower Parel,Mahalaxmi,2
+Mahalaxmi,Mumbai Central,3
+Mumbai Central,Grant Road,2
+Grant Road,Charni Road,3
+Charni Road,Marine Lines,2
+Marine Lines,Churchgate,2
+Churchgate,CSMT,5
+Thane,Kalyan,8
+Kalyan,Dombivli,5
+Dombivli,Thane,8
+Borivali,Andheri,10
+Andheri,Goregaon,3
+Goregaon,Malad,2
+Malad,Kandivali,2
+Kandivali,Borivali,3
+Bandra,Santacruz,3
+Santacruz,Vile Parle,2
+Vile Parle,Andheri,2
+Andheri,Goregaon,3
+Goregaon,Malad,2
+Malad,Kandivali,2
+Kandivali,Borivali,3
+Mahim,Bandra,2
+Bandra,Dadar,4
+Kurla,Vikhroli,3
+Vikhroli,Ghatkopar,3
+Kanjurmarg,Vikhroli,2
+Bhandup,Kanjurmarg,2
+Mulund,Bhandup,3
+Thane,Mulund,4
+Kalyan,Thane,8
+Dombivli,Thane,5
+Borivali,Andheri,10
+Andheri,Bandra,5
+Bandra,CSMT,10
+CSMT,Dadar,7
+Dadar,Kurla,5
+Kurla,Thane,10
+Navi Mumbai,Panvel,15
+Panvel,Nerul,10
+Nerul,Vashi,5
+Vashi,Chembur,12
+Chembur,Mankhurd,3
+Mankhurd,Govandi,2
+Govandi,Chunabhatti,4
+Chunabhatti,Kurla,3
+Kurla,Chembur,5
+Vashi,Khar Road,15
+Khar Road,Bandra,3
+Bandra,Santacruz,2
+Santacruz,Vile Parle,2
+Vile Parle,Andheri,2
+Andheri,Jogeshwari,2
+Jogeshwari,Ram Mandir,1
+Ram Mandir,Goregaon,2
+Goregaon,Malad,2
+Malad,Kandivali,2
+Kandivali,Borivali,3
+Borivali,Mira Road,5
+Mira Road,Bhayandar,3
+Bhayandar,Vasai Road,7
+Vasai Road,Nalasopara,2
+Nalasopara,Virar,3
+Virar,Dahanu Road,15
+Dahanu Road,Vasai Road,15
+Ghatkopar,Ghatkopar (Metro),1
+Ghatkopar (Metro),Jagruti Nagar,1
+Jagruti Nagar,Asalpha,1
+Asalpha,Saki Naka,2
+Saki Naka,Marol Naka,1
+Marol Naka,Airport Road,1
+Airport Road,JB Nagar,1
+JB Nagar,Andheri (Metro),2
+Andheri (Metro),Western Express Highway (Metro),1
+Western Express Highway (Metro),Sahar Airport,3
+Andheri (Metro),Azad Nagar (Metro),3
+Azad Nagar (Metro),D.N. Nagar (Metro),1
+D.N. Nagar (Metro),Versova (Metro),1
+Versova (Metro),Versova,1
+Chunabhatti,Sion,4
+Dadar,Worli,5
+Worli,Nariman Point,8
+Nariman Point,Colaba,3
+Colaba,Cuffe Parade,2
+Cuffe Parade,Fort,1
+Fort,CSMT,1
+Fort,Kalbadevi,2
+Kalbadevi,Girgaon,3
+Girgaon,Babulnath,2
+Babulnath,Walkeshwar,1
+Walkeshwar,Nepean Sea Road,1
+Nepean Sea Road,Breach Candy,1
+Breach Candy,Peddar Road,2
+Peddar Road,Cumballa Hill,1
+Cumballa Hill,Tardeo,2
+Tardeo,Mumbai Central,3
+Byculla,Byculla (East),1
+Byculla (East),Mazagaon,2
+Mazagaon,Pydhonie,3
+Pydhonie,Dongri,1
+Dongri,Mandvi,1
+Mandvi,Masjid,1
+Sandhurst Road,Chinchpokli,2
+Chinchpokli,Currey Road,1
+Currey Road,Parel,1
+Parel,Dadar,2
+Dadar,King's Circle,3
+King's Circle,Vadala Road,2
+Vadala Road,Sewri,1
+Sewri,Cotton Green,1
+Cotton Green,Reay Road,2
+Reay Road,Dockyard Road,1
+Kanjurmarg,Powai,5
+Powai,IIT Bombay,2
+IIT Bombay,Hiranandani Gardens,1
+Hiranandani Gardens,JVLR,3
+JVLR,Western Express Highway (Metro),7
+Andheri,Oshiwara,2
+Oshiwara,Jogeshwari,1
+Jogeshwari,Ram Mandir,1
+Ram Mandir,Goregaon,2
+Powai,Sakinaka,3
+Sakinaka,Marol Naka,2
+Marol Naka,Airport Road,1
+Airport Road,JB Nagar,1
+JB Nagar,Andheri (Metro),2
+Andheri (Metro),Santacruz (Metro),3
+Santacruz (Metro),Domestic Airport,1
+Domestic Airport,Vile Parle,2
+Kurla,Kurla (Metro),1
+Kurla (Metro),Sion (Metro),2
+Sion (Metro),Matunga (Metro),2
+Matunga (Metro),Dadar (Metro),2
+Dadar (Metro),Dadar,1
+Thane,Vasai Road (Local),20
+Vasai Road (Local),Nalasopara,5
+Nalasopara,Virar,5
+Virar,Dahanu Road,15
